@@ -28,7 +28,8 @@ pip install numpy pandas torch torchmetrics scikit-learn plotly dash dash_daq da
 ## Usage
 1. Download `app.py` from this repository.
 2. Activate your virtual environment.
-3. Run the following command in the command line:
+3. Go to the directory where `app.py` is located. 
+4. Run the following command in the command line:
 ```python
 python app.py
 ```
