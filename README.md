@@ -42,3 +42,8 @@ pip install numpy pandas torch torchmetrics scikit-learn plotly dash dash_daq da
 ```python
 python app.py
 ```
+
+## References
+[A simple implementation of the Neural Additive Model by Agarwal et al. in PyTorch.](https://github.com/CursedSeraphim/NAM-torch)
+
+[Neural Additive Models (Google Research)](https://github.com/AmrMKayid/nam)
