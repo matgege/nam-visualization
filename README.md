@@ -21,12 +21,12 @@ Create a virtual environment using this guideline:
 [Creating an environment with commands (conda)](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)
 
 ---
-### Pytorch versions
-Check your system, if it's CUDA capable or not, and use the corresponding version of Pytorch.
+### PyTorch versions
+Check your system, if it's CUDA capable or not, and use the corresponding version of PyTorch.
 
-[Pytorch versions with or without CUDA support.](https://pytorch.org/get-started/locally/)
+[PyTorch versions with or without CUDA support.](https://pytorch.org/get-started/locally/)
 
-**If necessary**, change the pip statement below with respect to your Pytorch version (torch).
+**If necessary**, change the pip statement below with respect to your PyTorch version (torch).
 
 ---
 After that, install the needed packages via this pip statement:
