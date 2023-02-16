@@ -3,6 +3,9 @@
 
 In this visualization approach, feature pair heatmaps (2D-heatmaps) and their corresponding feature maps are visualized in a [Dash](https://plotly.com/dash/) app.
 
+![iris_heatmaps](https://github.com/matgege/nam-visualization/blob/main/iris_heatmaps.png)
+![iris_feature_maps](https://github.com/matgege/nam-visualization/blob/main/iris_feature_maps.png)
+
 ## Installation
 ### Installation via pip
 Create a virtual environment using this guidline:
