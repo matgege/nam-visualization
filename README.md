@@ -26,7 +26,7 @@ Check your system, if it's CUDA capable or not, and use the corresponding versio
 
 [Pytorch versions with or without CUDA support.](https://pytorch.org/get-started/locally/)
 
-**If necessary**, change the below pip install statement with respect to your Pytorch version (torch).
+**If necessary**, change the pip statement below with respect to your Pytorch version (torch).
 
 ---
 After that, install the needed packages via this pip statement:
