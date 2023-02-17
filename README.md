@@ -6,7 +6,7 @@
 
 [Neural Additive Models (NAMs)](https://neural-additive-models.github.io/) [Agarwal et al. 2020](https://arxiv.org/abs/2004.13912) combine some of the expressivity of DNNs with the inherent intelligibility of generalized additive models. NAMs learn a linear combination of neural networks that each attend to a single input feature. These networks are trained jointly and can learn arbitrarily complex relationships between their input feature and the output.
 
-In this visualization approach, feature pair heatmaps (2D-heatmaps) and their corresponding feature maps (shape functions) are visualized in a [Dash](https://plotly.com/dash/) app.
+In this visualization approach, feature pair heatmaps (2D-heatmaps) and their corresponding feature maps (shape functions) are visualized in a [Dash](https://plotly.com/dash/) app. The user can select between automatic filtering of the most useful heatmaps via variance of the heatmaps and manual selection of the heatmaps. The manual mode is also supported by permutation feature importance on the full NAM model.
 
 ![iris_heatmaps](https://github.com/matgege/nam-visualization/blob/main/iris_heatmaps.png)
 ![iris_feature_maps](https://github.com/matgege/nam-visualization/blob/main/iris_feature_maps.png)
@@ -17,6 +17,9 @@ The darker the shade of red, the more data there is in that region. This allows 
 model had adequate training data to learn appropriate shape functions.
 
 ## Installation
+### Python version
+This code was tested with Python 3.8
+
 ### Installation via pip
 Create a virtual environment using this guideline:
 [Installing packages using pip and virtual environments](https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/)
