@@ -59,7 +59,7 @@ python app.py
 After this step, a web browser window should be opened with the dash app.
 
 As an input, datasets in the .csv format are allowed.
-Drag & Drop the file into the marked area, or simply click on select.
+Drag & Drop the file into the marked area, or simply click on `Select File`.
 
 Now you should see the head of the .csv file and the name of the file.
 
