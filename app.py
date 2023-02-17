@@ -924,6 +924,8 @@ app.layout = html.Div([
     html.H3('Explainable Artificial Intelligence', style={'textAlign': 'center'}),
 
     html.H5('Select a .csv file from your System', style={'textAlign': 'center'}),
+    html.H5('The dataset has to be free of NaN values or other kinds of missing values -->'
+            ' it should be properly preprocessed!', style={'textAlign': 'center'}),
 
     dcc.Upload(
         id='upload-data',
