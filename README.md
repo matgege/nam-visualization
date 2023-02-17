@@ -42,6 +42,11 @@ After that, install the needed packages via this pip statement:
 pip install numpy pandas torch torchmetrics scikit-learn plotly dash dash_daq dash-extensions pyautogui
 ```
 
+Or download the `requirements.txt` from this repository and use this statement:
+```python
+pip install -r requirements.txt
+```
+
 ## Usage
 1. Download `app.py` from this repository.
 2. Activate your virtual environment.
