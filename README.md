@@ -51,6 +51,19 @@ pip install numpy pandas torch torchmetrics scikit-learn plotly dash dash_daq da
 python app.py
 ```
 
+After this step, a web browser window should be opened with the dash app.
+
+As an input, datasets in the .csv format are allowed.
+Drag & Drop the file into the marked area, or simply click on select.
+
+Now you should see the head of the .csv file and the name of the file.
+
+**Important Notice!!!**
+
+**The dataset has to be free of NaN values or other kinds of missing values --> it should be properly preprocessed!**
+
+If you can't preprocess the data properly, you can also just select the feature columns which are working --> which have no NaN values.
+
 ## References
 ### GitHub
 [A simple implementation of the Neural Additive Model by Agarwal et al. in PyTorch.](https://github.com/CursedSeraphim/NAM-torch)
