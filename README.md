@@ -69,6 +69,10 @@ Now you should see the head of the .csv file and the name of the file.
 
 If you can't preprocess the data properly, you can also just select the feature columns which are working --> which have no NaN values.
 
+
+https://user-images.githubusercontent.com/87085174/219699414-ab7f2ce9-21da-4bd3-8943-c7ce7a5a97f7.mp4
+
+
 ## References
 ### GitHub
 [A simple implementation of the Neural Additive Model by Agarwal et al. in PyTorch.](https://github.com/CursedSeraphim/NAM-torch)
