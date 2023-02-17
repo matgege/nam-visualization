@@ -49,11 +49,15 @@ python app.py
 ```
 
 ## References
+### GitHub
 [A simple implementation of the Neural Additive Model by Agarwal et al. in PyTorch.](https://github.com/CursedSeraphim/NAM-torch)
 
 [Neural Additive Models (Google Research)](https://github.com/AmrMKayid/nam)
 
-### Python Packages References
+### Paper
+[Neural Additive Models: Interpretable Machine Learning with Neural Nets](https://arxiv.org/abs/2004.13912)
+
+### Python Packages
 [Numpy](https://numpy.org/)
 
 [Pandas](https://pandas.pydata.org/)
