@@ -8,8 +8,8 @@
 
 In this visualization approach, feature pair heatmaps (2D-heatmaps) and their corresponding feature maps (shape functions) are visualized in a [Dash](https://plotly.com/dash/) app. The user can select between automatic filtering of the most useful heatmaps via variance of the heatmaps and manual selection of the heatmaps. The manual mode is also supported by permutation feature importance on the full NAM model.
 
-![iris_heatmaps](https://github.com/matgege/nam-visualization/blob/main/iris_heatmaps.png)
-![iris_feature_maps](https://github.com/matgege/nam-visualization/blob/main/iris_feature_maps.png)
+![iris_heatmaps](https://github.com/matgege/nam-visualization/blob/main/images/iris_heatmaps.png)
+![iris_feature_maps](https://github.com/matgege/nam-visualization/blob/main/images/iris_feature_maps.png)
 
 As stated in the [NAM paper](https://arxiv.org/abs/2004.13912), the shape function and the normalized data density are plotted on the same graph.
 The normalized data density is visualized in the form of red bars.
