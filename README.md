@@ -52,3 +52,20 @@ python app.py
 [A simple implementation of the Neural Additive Model by Agarwal et al. in PyTorch.](https://github.com/CursedSeraphim/NAM-torch)
 
 [Neural Additive Models (Google Research)](https://github.com/AmrMKayid/nam)
+
+### Python Packages References
+[Numpy](https://numpy.org/)
+
+[Pandas](https://pandas.pydata.org/)
+
+[PyTorch](https://pytorch.org/)
+
+[TorchMetrics](https://torchmetrics.readthedocs.io/en/latest/)
+
+[scikit-learn](https://scikit-learn.org/stable/)
+
+[Plotly](https://plotly.com/python/)
+
+[Dash](https://dash.plotly.com/)
+
+[PyAutoGUI](https://pyautogui.readthedocs.io/en/latest/)
