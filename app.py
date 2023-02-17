@@ -804,8 +804,6 @@ def calculate_density_parameter(data, feature_names, target_names, target, class
     """
     Returns the density for each used feature.
     """
-    # ignore np.VisibleDeprecationWarning
-    np.warnings.filterwarnings('ignore', category=np.VisibleDeprecationWarning)
     df = pd.DataFrame.from_dict(data)
     densities = []
     if class_or_reg == "Classification":
@@ -854,7 +852,7 @@ def calculate_density_parameter(data, feature_names, target_names, target, class
                 d = min(1.0, 0.01 + normed_density[p])
                 rect_params.append((d, start_x, end_x))
             densities.append(rect_params)
-    return np.array(densities)
+    return densities
 
 
 def permutation_importance(model, X, y, loss_fn, num_rep, class_or_reg):
