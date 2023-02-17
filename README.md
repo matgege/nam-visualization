@@ -1,6 +1,6 @@
 # Neural Additive Models - Visualization Tool
 
-![PyPI Python Version](https://img.shields.io/badge/python-3.9-blue)
+![PyPI Python Version](https://img.shields.io/badge/python-3.8-blue)
 [![arXiv](https://img.shields.io/badge/arXiv-2004.13912-b31b1b.svg)](https://arxiv.org/abs/2004.13912)
 ![GitHub license](https://img.shields.io/github/license/matgege/nam-visualization)
 
