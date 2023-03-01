@@ -243,7 +243,7 @@ def train_and_evaluate_model(model, X_train, y_train, X_test, y_test, optimizer,
         # evaluate
         test_loss, test_accuracy = evaluate(model, X_test, y_test, loss_fn, class_or_reg)
         # print
-        if epoch % 100 == 0:
+        if epoch % 10 == 0:
             if class_or_reg == "Classification":
                 print(
                     f'Epoch {epoch + 1}: train loss = {train_loss:.4f}, test loss = {test_loss:.4f},'
@@ -578,7 +578,7 @@ def plot_feature_heatmaps(df, model, input_ranges, features_names, all_target_na
             mp = mean_prediction_from_grids(df, model, [features_names[lower], features_names[upper]],
                                             10, all_target_names if cla else 0, encoder_dict, input_ranges)
         else:
-            mp = mean_prediction_from_grids_less_RAM(df, model, [features_names[lower], features_names[upper]], 20,
+            mp = mean_prediction_from_grids_less_RAM(df, model, [features_names[lower], features_names[upper]], 10,
                                                      encoder_dict, input_ranges)
         for j in range(len(target_names if cla else target)):
             if cla:
